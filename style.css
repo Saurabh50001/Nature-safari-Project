@@ -12,9 +12,11 @@ body , html{
 }
 a{
     text-decoration: none;
+    color: rgb(255, 3, 3);
 }
 ul{
     list-style: none;
+    
 }
 .active{
     color: #fc036b;
@@ -30,7 +32,7 @@ ul{
     width: 100%;
     justify-content: space-between;
     padding: 20px;
-    color: whitesmoke;
+    color: rgb(6, 6, 6);
 }
 .nav-link {
     display: flex;
@@ -52,7 +54,7 @@ header{
 }
 .header-content{
     margin-bottom: 15px;
-    color: whitesmoke;
+    color: rgb(253, 251, 251);
     text-align: center;
 }
 .header-content h2 {
@@ -75,6 +77,7 @@ header{
     background: #fc036b;
     border-radius: 30px;
     color: whitesmoke;
+    transition: 0.5s;
 }
 .menu-btn{
     position: absolute;
@@ -268,4 +271,10 @@ img:hover{
 li:hover{
     color: #fc036b;
     cursor: pointer;
+}
+
+
+/* About  */
+h1{
+    margin: 40px 40px;
 }
