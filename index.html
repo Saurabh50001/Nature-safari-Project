@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- navbar -->
+     <nav class="navbar">
+        <h1 class="logo">ADVANTURE</h1>
+        <ul class="nav-link">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a  href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/menubtn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The colourful World</h2>
+            <div class="line"></div>
+            <h1>A WANDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+    <!-- Events -->
+    <section class="events">
+        
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <img src="./img/event1.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dolore?</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="./img/event2.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dolore?</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti quia consectetur laudantium error amet libero ea nemo voluptates ratione.</P>
+        <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, saepe.</P>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/tour1.jpg" alt="">
+                    <img src="./img/tour2.jpg" alt="">
+                    <img src="./img/tour3.jpg" alt="">
+                    <img src="./img/tour4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Deoghar college Deoghar jharkhand | Phone: 8051046923 | Email: content234@gmail.com</p>
+        <p>Copyright (c) 2022 December Adventure</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLink = document.querySelector('.nav-link')
+
+        menuBtn.addEventListener('click',()=>{
+            navLink.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
